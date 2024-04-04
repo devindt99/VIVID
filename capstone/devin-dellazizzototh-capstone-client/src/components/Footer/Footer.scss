@@ -1,0 +1,50 @@
+/* Footer Block */
+.footer {
+    width: 100%;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100vw;
+    box-sizing: border-box; 
+  }
+  
+  
+  /* Each Column */
+  .footer__column {
+    flex: 1;
+    align-content: center;
+  }
+  
+  /* Navigation Element */
+  .footer__nav {
+    margin-bottom: 1rem;
+  }
+  
+  /* Link Element */
+  .footer__link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  /* Info Element */
+  .footer__info {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Social Icons */
+  .footer__social-icons {
+    display: flex;
+  }
+  
+  /* Social Icon */
+  .footer__social-icon {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 0.5rem;
+  }
+
