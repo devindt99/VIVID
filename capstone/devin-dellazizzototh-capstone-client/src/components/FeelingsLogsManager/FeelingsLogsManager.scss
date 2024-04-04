@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+    padding: none;
+}
+li {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: space-between;
+    border: 1px black solid;
+    border-radius: 1rem;
+}
+
+.feeling-logs-manager__add-btn {
+
+    margin-left: 1rem;
+}

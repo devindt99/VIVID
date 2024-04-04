@@ -1,0 +1,15 @@
+.feelings-container {
+    display: flex;
+    align-items: center; // Aligns items vertically in the center
+    justify-content: space-between; // Spaces out the items to fill the container
+    gap: 5px; // Sets a gap of 5px between each item
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    // And perhaps set a width if you want to ensure it fills its parent
+    
+  }
+  

@@ -1,11 +1,16 @@
 
 import React from 'react';
 import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer'
+import Footer from './components/Footer/Footer';
+import FeelingsManager from './components/FeelingsManager/FeelingsManager';
+import FeelingLogsManager from './components/FeelingsLogsManager/FeelingsLogsManager';
+
 const App = () => {
     return (
         <div className="App">
-            <Header/><br/>
+            <Header/>
+            <FeelingsManager/>
+            <FeelingLogsManager/>
             <Footer/>
         </div>
     );
