@@ -6,7 +6,7 @@
     padding: 1rem;
     background-color: #333;
     color: #fff;
-    width: 100%;
+    width: 100vw;
     box-sizing: border-box; 
   }
   
@@ -26,4 +26,10 @@
     text-decoration: none;
     margin: 0 1rem;
   }
-  
+  .header__link.myLink:visited,
+  .header__link.myLink:hover,
+  .header__link.myLink:active,
+  .header__link.myLink:focus {
+  color: #fff;
+  text-decoration: none; /* Keeps the color black for all states */
+}

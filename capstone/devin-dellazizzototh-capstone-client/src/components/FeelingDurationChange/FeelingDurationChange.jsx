@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import './FeelingDurationChange.scss';
+import positiveImage from '../../assets/icons/up_chevron.png';
+import negativeImage from '../../assets/icons/down_chevron.png';
 
 function FeelingDurationChange() {
   const [feelings, setFeelings] = useState([]);
@@ -47,8 +50,9 @@ function FeelingDurationChange() {
     }
   }, [selectedFeeling]);
 
+
   return (
-    <div>
+    <div className='feeling-duration-change'>
       <h2>Changes since last month</h2>
       <select value={selectedFeeling} onChange={(e) => setSelectedFeeling(e.target.value)}>
         <option value="">Select a Feeling</option>
@@ -57,8 +61,10 @@ function FeelingDurationChange() {
         ))}
       </select>
       {percentageChange !== null && (
-        <div>
+        <div className='feeling-duration-change__output'>
+            <img src={percentageChange.includes('-') ? negativeImage : positiveImage} alt="Change Indicator" />
           <h3>Change this month: {percentageChange}</h3>
+          
         </div>
       )}
     </div>

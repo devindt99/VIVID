@@ -1,13 +1,16 @@
 ul {
     list-style-type: none;
-    padding: none;
+    padding: 1rem;
 }
 li {
     display: flex;
     gap: 1rem;
     padding: 1rem;
     justify-content: space-between;
-    border: 1px black solid;
+
+    box-shadow: -3px 3px 3px rgba(0, 0, 0, 0.3);
+    
+      
     border-radius: 1rem;
 }
 
@@ -15,3 +18,4 @@ li {
 
     margin-left: 1rem;
 }
+

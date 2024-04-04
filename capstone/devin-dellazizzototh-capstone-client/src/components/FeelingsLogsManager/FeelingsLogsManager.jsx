@@ -74,7 +74,7 @@ function FeelingLogsManager() {
       <ul>
         {logs.map((log) => (
           <li key={log.id}>
-            {log.feeling_name} - {log.intensity} - {log.duration}
+            {log.feeling_name} Level: {log.intensity}<br></br> {log.duration} min.
             <button onClick={() => openModalForEdit(log)}>Edit</button>
             <button onClick={() => handleDeleteLog(log.feelings_logs_id)}>Delete</button>
           </li>

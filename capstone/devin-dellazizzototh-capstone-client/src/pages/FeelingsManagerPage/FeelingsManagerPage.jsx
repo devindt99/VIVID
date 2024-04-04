@@ -1,7 +1,7 @@
 import React from 'react';
 import FeelingsManager from '../../components/FeelingsManager/FeelingsManager'; // Adjust the import path as necessary
 import FeelingLogsManager from '../../components/FeelingsLogsManager/FeelingsLogsManager'; // Adjust the import path as necessary
-
+import './FeelingsManagerPage.scss'
 function FeelingsManagerPage() {
   return (
     <div>
