@@ -1,0 +1,14 @@
+.feeling-duration-change {
+    padding-left: 1rem;
+
+    &__output {
+        display: flex;
+        align-items: center; /* Vertically center the items in the container */
+        gap: 10px; 
+    }
+}
+
+img {
+    width: 30px;
+}
+
